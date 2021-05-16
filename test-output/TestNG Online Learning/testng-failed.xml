@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Online Learning]">
+  <test name="Google App Verification(failed)">
+    <classes>
+      <class name="dd_testcases.TC_002">
+        <methods>
+          <include name="VerifyGoogleApp"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_002 -->
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+    </classes>
+  </test> <!-- Google App Verification(failed) -->
+  <test name="Google All Apps Element Verification(failed)">
+    <classes>
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+      <class name="dd_testcases.TC_003">
+        <methods>
+          <include name="VerifyAllGoogleApps"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_003 -->
+    </classes>
+  </test> <!-- Google All Apps Element Verification(failed) -->
+  <test name="Google All Apps LogIN and LogOut Verification(failed)">
+    <classes>
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+      <class name="dd_testcases.TC_004">
+        <methods>
+          <include name="VerifyGoogleAppsLogInAndLogOut"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_004 -->
+    </classes>
+  </test> <!-- Google All Apps LogIN and LogOut Verification(failed) -->
+  <test name="Verify Google language Links(failed)">
+    <classes>
+      <class name="dd_testcases.TC_005">
+        <methods>
+          <include name="VerifyGoogleLaguageLinks"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_005 -->
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+    </classes>
+  </test> <!-- Verify Google language Links(failed) -->
+  <test name="Google Search Operation perform properly(failed)">
+    <classes>
+      <class name="dd_testcases.TC_006">
+        <methods>
+          <include name="VerifyGoogleSearchOperationPerformProperly"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_006 -->
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+    </classes>
+  </test> <!-- Google Search Operation perform properly(failed) -->
+  <test name="Verify Google products and Get the Links(failed)">
+    <classes>
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+      <class name="dd_testcases.TC_007">
+        <methods>
+          <include name="VerifyGoogleProducts"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_007 -->
+    </classes>
+  </test> <!-- Verify Google products and Get the Links(failed) -->
+  <test name="Gmail Login(failed)">
+    <classes>
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+      <class name="dd_testcases.TC_008">
+        <methods>
+          <include name="GmailLogin"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_008 -->
+    </classes>
+  </test> <!-- Gmail Login(failed) -->
+  <test name="verify the total no. of emails received by the user(failed)">
+    <classes>
+      <class name="dd_testcases.TC_009">
+        <methods>
+          <include name="VerifyInboxMailsCount"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_009 -->
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+    </classes>
+  </test> <!-- verify the total no. of emails received by the user(failed) -->
+  <test name="To verify the total no. of emails marked with STAR(failed)">
+    <classes>
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+      <class name="dd_testcases.TC_010">
+        <methods>
+          <include name="verifyInboxMailsWithStarCount"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_010 -->
+    </classes>
+  </test> <!-- To verify the total no. of emails marked with STAR(failed) -->
+  <test name="To verify and count unread emails in an INBOX(failed)">
+    <classes>
+      <class name="dd_testcases.TC_011">
+        <methods>
+          <include name="VerifyInboxUnreadMailsCount"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_011 -->
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+    </classes>
+  </test> <!-- To verify and count unread emails in an INBOX(failed) -->
+  <test name="To verify and count Read emails in an INBOX(failed)">
+    <classes>
+      <class name="dd_testcases.TC_012">
+        <methods>
+          <include name="VerifyInboxReadMailsCount"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_012 -->
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+    </classes>
+  </test> <!-- To verify and count Read emails in an INBOX(failed) -->
+  <test name="To verify that Compose is working properly(failed)">
+    <classes>
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+      <class name="dd_testcases.TC_013">
+        <methods>
+          <include name="VerifymailComposeIsWorkingProperly"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_013 -->
+    </classes>
+  </test> <!-- To verify that Compose is working properly(failed) -->
+  <test name="verify that email is Send properly to email address(failed)">
+    <classes>
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+      <class name="dd_testcases.TC_014">
+        <methods>
+          <include name="VerifyMailIsSendProperly"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_014 -->
+    </classes>
+  </test> <!-- verify that email is Send properly to email address(failed) -->
+  <test name="search the emails received from specific email address from INBOX(failed)">
+    <classes>
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+      <class name="dd_testcases.TC_015">
+        <methods>
+          <include name="VerifyMailsareserchproperly"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_015 -->
+    </classes>
+  </test> <!-- search the emails received from specific email address from INBOX(failed) -->
+  <test name="To verify the emails which are with attachments in INBOX(failed)">
+    <classes>
+      <class name="dd_testcases.TC_016">
+        <methods>
+          <include name="VerifyInboxMailsWithAttachmentCount"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_016 -->
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+    </classes>
+  </test> <!-- To verify the emails which are with attachments in INBOX(failed) -->
+  <test name="To verify that Settings page is displayed properly(failed)">
+    <classes>
+      <class name="dd_testcases.TC_017">
+        <methods>
+          <include name="VerifyEmailSettingIspresent"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_017 -->
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+    </classes>
+  </test> <!-- To verify that Settings page is displayed properly(failed) -->
+  <test name="To verify that the new label is properly created(failed)">
+    <classes>
+      <class name="dd_testcases.TC_018">
+        <methods>
+          <include name="VerifyLabelIsCreated"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_018 -->
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+    </classes>
+  </test> <!-- To verify that the new label is properly created(failed) -->
+  <test name="To verify that emails are moved from source label to target label (Folders)(failed)">
+    <classes>
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+      <class name="dd_testcases.TC_019">
+        <methods>
+          <include name="VerifyMailsMoveSourceFolderTotargetfolder"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_019 -->
+    </classes>
+  </test> <!-- To verify that emails are moved from source label to target label (Folders)(failed) -->
+  <test name="To verify that the user can successfully Sign-out from Gmail(failed)">
+    <classes>
+      <class name="dd_testcases.TC_020">
+        <methods>
+          <include name="init"/>
+          <include name="VerifyMailsMoveSourceFolderTotargetfolder"/>
+        </methods>
+      </class> <!-- dd_testcases.TC_020 -->
+    </classes>
+  </test> <!-- To verify that the user can successfully Sign-out from Gmail(failed) -->
+</suite> <!-- Failed suite [TestNG Online Learning] -->

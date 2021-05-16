@@ -1,0 +1,120 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "TestNG Online Learning">
+
+
+<test name = "Google App Verification">
+    <classes>
+        <class name = "dd_testcases.TC_002" ></class>  
+    </classes>
+</test>
+
+<test name = "Google All Apps Element Verification">
+    <classes>
+        <class name = "dd_testcases.TC_003" ></class>  
+    </classes>
+</test>
+
+<test name = "Google All Apps LogIN and LogOut Verification">
+    <classes>
+        <class name = "dd_testcases.TC_004" ></class>  
+    </classes>
+</test>
+
+<test name="Verify Google language Links">
+    <classes>
+        <class name="dd_testcases.TC_005" ></class>  
+    </classes>
+</test>
+
+<test name="Google Search Operation perform properly">
+    <classes>
+        <class name="dd_testcases.TC_006" ></class>  
+    </classes>
+</test>
+
+<test name="Verify Google products and Get the Links">
+    <classes>
+        <class name="dd_testcases.TC_007" ></class>  
+    </classes>
+</test>
+
+<test name = "Gmail Login">
+    <classes>
+        <class name = "dd_testcases.TC_008" ></class>  
+    </classes>
+</test>
+
+<test name = "verify the total no. of emails received by the user">
+    <classes>
+        <class name = "dd_testcases.TC_009" ></class>  
+    </classes>
+</test>
+
+<test name="To verify the total no. of emails marked with STAR">
+    <classes>
+        <class name = "dd_testcases.TC_010" ></class>  
+    </classes>
+</test>
+
+<test name = "To verify and count unread emails in an INBOX">
+    <classes>
+        <class name = "dd_testcases.TC_011" ></class>  
+    </classes>
+</test>
+
+<test name = "To verify and count Read emails in an INBOX">
+    <classes>
+        <class name = "dd_testcases.TC_012" ></class>  
+    </classes>
+</test>
+
+<test name = "To verify that Compose is working properly">
+    <classes>
+        <class name = "dd_testcases.TC_013" ></class>  
+    </classes>
+</test>
+
+<test name = "verify that email is Send properly to email address">
+    <classes>
+        <class name = "dd_testcases.TC_014" ></class>  
+    </classes>
+</test>
+
+<test name="search the emails received from specific email address from INBOX">
+    <classes>
+        <class name="dd_testcases.TC_015" ></class>  
+    </classes>
+</test>
+
+<test name="To verify the emails which are with attachments in INBOX">
+    <classes>
+        <class name="dd_testcases.TC_016" ></class>  
+    </classes>
+</test>
+
+<test name="To verify that Settings page is displayed properly">
+    <classes>
+        <class name="dd_testcases.TC_017" ></class>  
+    </classes>
+</test>
+
+<test name="To verify that the new label is properly created">
+    <classes>
+        <class name="dd_testcases.TC_018" ></class>  
+    </classes>
+</test>
+
+<test name="To verify that emails are moved from source label to target label (Folders)">
+    <classes>
+        <class name="dd_testcases.TC_019" ></class>  
+    </classes>
+</test>
+
+<test name="To verify that the user can successfully Sign-out from Gmail">
+    <classes>
+        <class name="dd_testcases.TC_020" ></class>  
+    </classes>
+</test>
+
+
+</suite>

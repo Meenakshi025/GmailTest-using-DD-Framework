@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="19" failed="0" total="19" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Online Learning" duration-ms="437" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+    <groups>
+    </groups>
+    <test name="Google App Verification" duration-ms="99" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_002">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_002@138449f]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyGoogleApp(java.lang.String)[pri:0, instance:dd_testcases.TC_002@138449f]" name="VerifyGoogleApp" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyGoogleApp -->
+      </class> <!-- dd_testcases.TC_002 -->
+    </test> <!-- Google App Verification -->
+    <test name="Google All Apps Element Verification" duration-ms="11" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_003">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_003@ad498c]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyAllGoogleApps(java.lang.String)[pri:0, instance:dd_testcases.TC_003@ad498c]" name="VerifyAllGoogleApps" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAllGoogleApps -->
+      </class> <!-- dd_testcases.TC_003 -->
+    </test> <!-- Google All Apps Element Verification -->
+    <test name="Google All Apps LogIN and LogOut Verification" duration-ms="7" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_004">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_004@96385]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyGoogleAppsLogInAndLogOut(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_004@96385]" name="VerifyGoogleAppsLogInAndLogOut" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyGoogleAppsLogInAndLogOut -->
+      </class> <!-- dd_testcases.TC_004 -->
+    </test> <!-- Google All Apps LogIN and LogOut Verification -->
+    <test name="Verify Google language Links" duration-ms="7" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_005">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_005@16e1eff]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyGoogleLaguageLinks(java.lang.String)[pri:0, instance:dd_testcases.TC_005@16e1eff]" name="VerifyGoogleLaguageLinks" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyGoogleLaguageLinks -->
+      </class> <!-- dd_testcases.TC_005 -->
+    </test> <!-- Verify Google language Links -->
+    <test name="Google Search Operation perform properly" duration-ms="5" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_006">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_006@10ee7e5]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyGoogleSearchOperationPerformProperly(java.lang.String)[pri:0, instance:dd_testcases.TC_006@10ee7e5]" name="VerifyGoogleSearchOperationPerformProperly" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amitabh Bachchan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyGoogleSearchOperationPerformProperly -->
+      </class> <!-- dd_testcases.TC_006 -->
+    </test> <!-- Google Search Operation perform properly -->
+    <test name="Verify Google products and Get the Links" duration-ms="8" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_007">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_007@13a388c]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyGoogleProducts(java.lang.String)[pri:0, instance:dd_testcases.TC_007@13a388c]" name="VerifyGoogleProducts" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[null]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyGoogleProducts -->
+      </class> <!-- dd_testcases.TC_007 -->
+    </test> <!-- Verify Google products and Get the Links -->
+    <test name="Gmail Login" duration-ms="5" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_008">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_008@1d89d5d]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="GmailLogin(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_008@1d89d5d]" name="GmailLogin" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GmailLogin -->
+      </class> <!-- dd_testcases.TC_008 -->
+    </test> <!-- Gmail Login -->
+    <test name="verify the total no. of emails received by the user" duration-ms="8" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_009">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_009@b5ac82]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyInboxMailsCount(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_009@b5ac82]" name="VerifyInboxMailsCount" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInboxMailsCount -->
+      </class> <!-- dd_testcases.TC_009 -->
+    </test> <!-- verify the total no. of emails received by the user -->
+    <test name="To verify the total no. of emails marked with STAR" duration-ms="19" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_010">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_010@a6147e]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="verifyInboxMailsWithStarCount(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_010@a6147e]" name="verifyInboxMailsWithStarCount" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInboxMailsWithStarCount -->
+      </class> <!-- dd_testcases.TC_010 -->
+    </test> <!-- To verify the total no. of emails marked with STAR -->
+    <test name="To verify and count unread emails in an INBOX" duration-ms="4" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_011">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_011@19d26fb]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyInboxUnreadMailsCount(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_011@19d26fb]" name="VerifyInboxUnreadMailsCount" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInboxUnreadMailsCount -->
+      </class> <!-- dd_testcases.TC_011 -->
+    </test> <!-- To verify and count unread emails in an INBOX -->
+    <test name="To verify and count Read emails in an INBOX" duration-ms="6" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_012">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_012@84448c]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyInboxReadMailsCount(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_012@84448c]" name="VerifyInboxReadMailsCount" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInboxReadMailsCount -->
+      </class> <!-- dd_testcases.TC_012 -->
+    </test> <!-- To verify and count Read emails in an INBOX -->
+    <test name="To verify that Compose is working properly" duration-ms="5" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_013">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_013@11426f4]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifymailComposeIsWorkingProperly(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_013@11426f4]" name="VerifymailComposeIsWorkingProperly" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifymailComposeIsWorkingProperly -->
+      </class> <!-- dd_testcases.TC_013 -->
+    </test> <!-- To verify that Compose is working properly -->
+    <test name="verify that email is Send properly to email address" duration-ms="34" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_014">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_014@1ba92d3]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyMailIsSendProperly(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_014@1ba92d3]" name="VerifyMailIsSendProperly" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[meenakshi.patil04@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Test Mail]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[This is test mail      Regards,Meenakshi patil              ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMailIsSendProperly -->
+      </class> <!-- dd_testcases.TC_014 -->
+    </test> <!-- verify that email is Send properly to email address -->
+    <test name="search the emails received from specific email address from INBOX" duration-ms="5" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_015">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_015@1bdfdcf]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyMailsareserchproperly(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_015@1bdfdcf]" name="VerifyMailsareserchproperly" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linkedin notifications]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMailsareserchproperly -->
+      </class> <!-- dd_testcases.TC_015 -->
+    </test> <!-- search the emails received from specific email address from INBOX -->
+    <test name="To verify the emails which are with attachments in INBOX" duration-ms="4" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_016">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_016@3bfa16]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyInboxMailsWithAttachmentCount(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_016@3bfa16]" name="VerifyInboxMailsWithAttachmentCount" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInboxMailsWithAttachmentCount -->
+      </class> <!-- dd_testcases.TC_016 -->
+    </test> <!-- To verify the emails which are with attachments in INBOX -->
+    <test name="To verify that Settings page is displayed properly" duration-ms="4" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_017">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_017@1e22a3d]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyEmailSettingIspresent(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_017@1e22a3d]" name="VerifyEmailSettingIspresent" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmailSettingIspresent -->
+      </class> <!-- dd_testcases.TC_017 -->
+    </test> <!-- To verify that Settings page is displayed properly -->
+    <test name="To verify that the new label is properly created" duration-ms="5" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_018">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_018@191004a]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyLabelIsCreated(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_018@191004a]" name="VerifyLabelIsCreated" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Testing_01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLabelIsCreated -->
+      </class> <!-- dd_testcases.TC_018 -->
+    </test> <!-- To verify that the new label is properly created -->
+    <test name="To verify that emails are moved from source label to target label (Folders)" duration-ms="5" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_019">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_019@83d8b8]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyMailsMoveSourceFolderTotargetfolder(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_019@83d8b8]" name="VerifyMailsMoveSourceFolderTotargetfolder" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMailsMoveSourceFolderTotargetfolder -->
+      </class> <!-- dd_testcases.TC_019 -->
+    </test> <!-- To verify that emails are moved from source label to target label (Folders) -->
+    <test name="To verify that the user can successfully Sign-out from Gmail" duration-ms="5" started-at="2020-02-01T09:02:47Z" finished-at="2020-02-01T09:02:47Z">
+      <class name="dd_testcases.TC_020">
+        <test-method status="FAIL" signature="init()[pri:0, instance:dd_testcases.TC_020@1a18644]" name="init" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: com.google.common.base.Preconditions.checkState(ZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at dd_core.Page.init(Page.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:dd_testcases.TC_020@1a18644]" name="isSkip" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:47Z" finished-at="2020-02-01T14:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="VerifyMailsMoveSourceFolderTotargetfolder(java.lang.String, java.lang.String)[pri:0, instance:dd_testcases.TC_020@1a18644]" name="VerifyMailsMoveSourceFolderTotargetfolder" duration-ms="0" started-at="2020-02-01T14:32:47Z" data-provider="getData" finished-at="2020-02-01T14:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[meenifsss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@676]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMailsMoveSourceFolderTotargetfolder -->
+        <test-method status="SKIP" signature="QuitDriver()[pri:0, instance:dd_testcases.TC_020@1a18644]" name="QuitDriver" is-config="true" duration-ms="0" started-at="2020-02-01T14:32:48Z" finished-at="2020-02-01T14:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- dd_testcases.TC_020 -->
+    </test> <!-- To verify that the user can successfully Sign-out from Gmail -->
+  </suite> <!-- TestNG Online Learning -->
+</testng-results>

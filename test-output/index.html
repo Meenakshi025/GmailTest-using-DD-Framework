@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestNG_Online_Learning">
+              <span class="suite-name border-skipped">TestNG Online Learning</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestNG_Online_Learning">
+                    <span>D:\JavaTutorials\TestNG_DataDrivenframework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestNG_Online_Learning">
+                    <span class="test-stats">19 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestNG_Online_Learning">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestNG_Online_Learning">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestNG_Online_Learning">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestNG_Online_Learning">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestNG_Online_Learning">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods,  19 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-TestNG_Online_Learning" class="hide-methods skipped suite-TestNG_Online_Learning"> (hide)</a> <!-- hide-methods skipped suite-TestNG_Online_Learning -->
+                      <a href="#" panel-name="suite-TestNG_Online_Learning" class="show-methods skipped suite-TestNG_Online_Learning"> (show)</a> <!-- show-methods skipped suite-TestNG_Online_Learning -->
+                    </span>
+                    <div class="method-list-content skipped suite-TestNG_Online_Learning">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_008" hash-for-method="GmailLogin(meenifsss@gmail.com, Meenu@676)">GmailLogin(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_003" hash-for-method="VerifyAllGoogleApps(null)">VerifyAllGoogleApps(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_017" hash-for-method="VerifyEmailSettingIspresent(meenifsss@gmail.com, Meenu@676)">VerifyEmailSettingIspresent(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_002" hash-for-method="VerifyGoogleApp(null)">VerifyGoogleApp(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_004" hash-for-method="VerifyGoogleAppsLogInAndLogOut(meenifsss@gmail.com, Meenu@676)">VerifyGoogleAppsLogInAndLogOut(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_005" hash-for-method="VerifyGoogleLaguageLinks(null)">VerifyGoogleLaguageLinks(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_007" hash-for-method="VerifyGoogleProducts(null)">VerifyGoogleProducts(null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_006" hash-for-method="VerifyGoogleSearchOperationPerformProperly(Amitabh Bachchan)">VerifyGoogleSearchOperationPerformProperly(Amitabh Bachchan)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_009" hash-for-method="VerifyInboxMailsCount(meenifsss@gmail.com, Meenu@676)">VerifyInboxMailsCount(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_016" hash-for-method="VerifyInboxMailsWithAttachmentCount(meenifsss@gmail.com, Meenu@676)">VerifyInboxMailsWithAttachmentCount(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_012" hash-for-method="VerifyInboxReadMailsCount(meenifsss@gmail.com, Meenu@676)">VerifyInboxReadMailsCount(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_011" hash-for-method="VerifyInboxUnreadMailsCount(meenifsss@gmail.com, Meenu@676)">VerifyInboxUnreadMailsCount(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_018" hash-for-method="VerifyLabelIsCreated(meenifsss@gmail.com, Meenu@676, Testing_01)">VerifyLabelIsCreated(meenifsss@gmail.com, Meenu@676, Testing_01)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_014" hash-for-method="VerifyMailIsSendProperly(meenifsss@gmail.com, Meenu@676, meenakshi.patil04@gmail.com, Test Mail, This is test mail      Regar...)">VerifyMailIsSendProperly(meenifsss@gmail.com, Meenu@676, meenakshi.patil04@gmail.com, Test Mail, This is test mail      Regar...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_019" hash-for-method="VerifyMailsMoveSourceFolderTotargetfolder(meenifsss@gmail.com, Meenu@676)">VerifyMailsMoveSourceFolderTotargetfolder(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_020" hash-for-method="VerifyMailsMoveSourceFolderTotargetfolder(meenifsss@gmail.com, Meenu@676)">VerifyMailsMoveSourceFolderTotargetfolder(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_015" hash-for-method="VerifyMailsareserchproperly(meenifsss@gmail.com, Meenu@676, linkedin notifications)">VerifyMailsareserchproperly(meenifsss@gmail.com, Meenu@676, linkedin notifications)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_013" hash-for-method="VerifymailComposeIsWorkingProperly(meenifsss@gmail.com, Meenu@676)">VerifymailComposeIsWorkingProperly(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestNG_Online_Learning" title="dd_testcases.TC_010" hash-for-method="verifyInboxMailsWithStarCount(meenifsss@gmail.com, Meenu@676)">verifyInboxMailsWithStarCount(meenifsss@gmail.com, Meenu@676)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-TestNG_Online_Learning -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestNG_Online_Learning" class="panel TestNG_Online_Learning">
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_009</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInboxMailsCount(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- VerifyInboxMailsCount(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">VerifyInboxMailsCount</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_016</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInboxMailsWithAttachmentCount(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- VerifyInboxMailsWithAttachmentCount(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">VerifyInboxMailsWithAttachmentCount</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_011</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInboxUnreadMailsCount(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- VerifyInboxUnreadMailsCount(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">VerifyInboxUnreadMailsCount</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_005</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyGoogleLaguageLinks(null)">
+                  </a> <!-- VerifyGoogleLaguageLinks(null) -->
+                  <span class="method-name">VerifyGoogleLaguageLinks</span>
+                  <span class="parameters">(null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_004</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyGoogleAppsLogInAndLogOut(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- VerifyGoogleAppsLogInAndLogOut(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">VerifyGoogleAppsLogInAndLogOut</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_010</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInboxMailsWithStarCount(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- verifyInboxMailsWithStarCount(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">verifyInboxMailsWithStarCount</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_014</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMailIsSendProperly(meenifsss@gmail.com, Meenu@676, meenakshi.patil04@gmail.com, Test Mail, This is test mail      Regar...)">
+                  </a> <!-- VerifyMailIsSendProperly(meenifsss@gmail.com, Meenu@676, meenakshi.patil04@gmail.com, Test Mail, This is test mail      Regar...) -->
+                  <span class="method-name">VerifyMailIsSendProperly</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676, meenakshi.patil04@gmail.com, Test Mail, This is test mail      Regards,Meenakshi patil              )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_019</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMailsMoveSourceFolderTotargetfolder(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- VerifyMailsMoveSourceFolderTotargetfolder(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">VerifyMailsMoveSourceFolderTotargetfolder</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_007</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyGoogleProducts(null)">
+                  </a> <!-- VerifyGoogleProducts(null) -->
+                  <span class="method-name">VerifyGoogleProducts</span>
+                  <span class="parameters">(null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyAllGoogleApps(null)">
+                  </a> <!-- VerifyAllGoogleApps(null) -->
+                  <span class="method-name">VerifyAllGoogleApps</span>
+                  <span class="parameters">(null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_008</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GmailLogin(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- GmailLogin(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">GmailLogin</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_006</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyGoogleSearchOperationPerformProperly(Amitabh Bachchan)">
+                  </a> <!-- VerifyGoogleSearchOperationPerformProperly(Amitabh Bachchan) -->
+                  <span class="method-name">VerifyGoogleSearchOperationPerformProperly</span>
+                  <span class="parameters">(Amitabh Bachchan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyGoogleApp(null)">
+                  </a> <!-- VerifyGoogleApp(null) -->
+                  <span class="method-name">VerifyGoogleApp</span>
+                  <span class="parameters">(null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_018</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLabelIsCreated(meenifsss@gmail.com, Meenu@676, Testing_01)">
+                  </a> <!-- VerifyLabelIsCreated(meenifsss@gmail.com, Meenu@676, Testing_01) -->
+                  <span class="method-name">VerifyLabelIsCreated</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676, Testing_01)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_012</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInboxReadMailsCount(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- VerifyInboxReadMailsCount(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">VerifyInboxReadMailsCount</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_017</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEmailSettingIspresent(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- VerifyEmailSettingIspresent(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">VerifyEmailSettingIspresent</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_020</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMailsMoveSourceFolderTotargetfolder(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- VerifyMailsMoveSourceFolderTotargetfolder(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">VerifyMailsMoveSourceFolderTotargetfolder</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_013</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifymailComposeIsWorkingProperly(meenifsss@gmail.com, Meenu@676)">
+                  </a> <!-- VerifymailComposeIsWorkingProperly(meenifsss@gmail.com, Meenu@676) -->
+                  <span class="method-name">VerifymailComposeIsWorkingProperly</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+          <div class="suite-TestNG_Online_Learning-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">dd_testcases.TC_015</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMailsareserchproperly(meenifsss@gmail.com, Meenu@676, linkedin notifications)">
+                  </a> <!-- VerifyMailsareserchproperly(meenifsss@gmail.com, Meenu@676, linkedin notifications) -->
+                  <span class="method-name">VerifyMailsareserchproperly</span>
+                  <span class="parameters">(meenifsss@gmail.com, Meenu@676, linkedin notifications)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNG_Online_Learning-class-skipped -->
+        </div> <!-- panel TestNG_Online_Learning -->
+        <div panel-name="test-xml-TestNG_Online_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\JavaTutorials\TestNG_DataDrivenframework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestNG Online Learning&quot;&gt;
+  &lt;test name=&quot;Google App Verification&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_002&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google App Verification --&gt;
+  &lt;test name=&quot;Google All Apps Element Verification&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_003&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google All Apps Element Verification --&gt;
+  &lt;test name=&quot;Google All Apps LogIN and LogOut Verification&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_004&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google All Apps LogIN and LogOut Verification --&gt;
+  &lt;test name=&quot;Verify Google language Links&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_005&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Google language Links --&gt;
+  &lt;test name=&quot;Google Search Operation perform properly&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_006&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Google Search Operation perform properly --&gt;
+  &lt;test name=&quot;Verify Google products and Get the Links&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_007&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Verify Google products and Get the Links --&gt;
+  &lt;test name=&quot;Gmail Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_008&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Gmail Login --&gt;
+  &lt;test name=&quot;verify the total no. of emails received by the user&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_009&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify the total no. of emails received by the user --&gt;
+  &lt;test name=&quot;To verify the total no. of emails marked with STAR&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_010&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To verify the total no. of emails marked with STAR --&gt;
+  &lt;test name=&quot;To verify and count unread emails in an INBOX&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_011&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To verify and count unread emails in an INBOX --&gt;
+  &lt;test name=&quot;To verify and count Read emails in an INBOX&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_012&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To verify and count Read emails in an INBOX --&gt;
+  &lt;test name=&quot;To verify that Compose is working properly&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_013&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To verify that Compose is working properly --&gt;
+  &lt;test name=&quot;verify that email is Send properly to email address&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_014&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- verify that email is Send properly to email address --&gt;
+  &lt;test name=&quot;search the emails received from specific email address from INBOX&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_015&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- search the emails received from specific email address from INBOX --&gt;
+  &lt;test name=&quot;To verify the emails which are with attachments in INBOX&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_016&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To verify the emails which are with attachments in INBOX --&gt;
+  &lt;test name=&quot;To verify that Settings page is displayed properly&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_017&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To verify that Settings page is displayed properly --&gt;
+  &lt;test name=&quot;To verify that the new label is properly created&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_018&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To verify that the new label is properly created --&gt;
+  &lt;test name=&quot;To verify that emails are moved from source label to target label (Folders)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_019&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To verify that emails are moved from source label to target label (Folders) --&gt;
+  &lt;test name=&quot;To verify that the user can successfully Sign-out from Gmail&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;dd_testcases.TC_020&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- To verify that the user can successfully Sign-out from Gmail --&gt;
+&lt;/suite&gt; &lt;!-- TestNG Online Learning --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNG_Online_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNG Online Learning</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Google App Verification (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google All Apps Element Verification (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google All Apps LogIN and LogOut Verification (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Google language Links (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Google Search Operation perform properly (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Verify Google products and Get the Links (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Gmail Login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify the total no. of emails received by the user (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To verify the total no. of emails marked with STAR (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To verify and count unread emails in an INBOX (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To verify and count Read emails in an INBOX (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To verify that Compose is working properly (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">verify that email is Send properly to email address (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">search the emails received from specific email address from INBOX (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To verify the emails which are with attachments in INBOX (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To verify that Settings page is displayed properly (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To verify that the new label is properly created (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To verify that emails are moved from source label to target label (Folders) (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">To verify that the user can successfully Sign-out from Gmail (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNG_Online_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNG Online Learning</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNG_Online_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNG Online Learning</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNG_Online_Learning');
+function tableData_TestNG_Online_Learning() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyGoogleApp')
+data.setCell(0, 2, 'dd_testcases.TC_002')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyAllGoogleApps')
+data.setCell(1, 2, 'dd_testcases.TC_003')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'VerifyGoogleAppsLogInAndLogOut')
+data.setCell(2, 2, 'dd_testcases.TC_004')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'VerifyGoogleLaguageLinks')
+data.setCell(3, 2, 'dd_testcases.TC_005')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyGoogleSearchOperationPerformProperly')
+data.setCell(4, 2, 'dd_testcases.TC_006')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifyGoogleProducts')
+data.setCell(5, 2, 'dd_testcases.TC_007')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'GmailLogin')
+data.setCell(6, 2, 'dd_testcases.TC_008')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyInboxMailsCount')
+data.setCell(7, 2, 'dd_testcases.TC_009')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyInboxMailsWithStarCount')
+data.setCell(8, 2, 'dd_testcases.TC_010')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyInboxUnreadMailsCount')
+data.setCell(9, 2, 'dd_testcases.TC_011')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyInboxReadMailsCount')
+data.setCell(10, 2, 'dd_testcases.TC_012')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifymailComposeIsWorkingProperly')
+data.setCell(11, 2, 'dd_testcases.TC_013')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'VerifyMailIsSendProperly')
+data.setCell(12, 2, 'dd_testcases.TC_014')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyMailsareserchproperly')
+data.setCell(13, 2, 'dd_testcases.TC_015')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'VerifyInboxMailsWithAttachmentCount')
+data.setCell(14, 2, 'dd_testcases.TC_016')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'VerifyEmailSettingIspresent')
+data.setCell(15, 2, 'dd_testcases.TC_017')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyLabelIsCreated')
+data.setCell(16, 2, 'dd_testcases.TC_018')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyMailsMoveSourceFolderTotargetfolder')
+data.setCell(17, 2, 'dd_testcases.TC_019')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyMailsMoveSourceFolderTotargetfolder')
+data.setCell(18, 2, 'dd_testcases.TC_020')
+data.setCell(18, 3, 0);
+window.suiteTableData['TestNG_Online_Learning']= { tableData: data, tableDiv: 'times-div-TestNG_Online_Learning'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-TestNG_Online_Learning">
+              </div> <!-- times-div-TestNG_Online_Learning -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNG_Online_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNG Online Learning</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNG_Online_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNG_Online_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_020</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">init</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_002</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyGoogleApp(null)</span>
+                <span class="method-start">256 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_003</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyAllGoogleApps(null)</span>
+                <span class="method-start">301 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_004</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyGoogleAppsLogInAndLogOut(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">319 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_005</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyGoogleLaguageLinks(null)</span>
+                <span class="method-start">340 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_006</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyGoogleSearchOperationPerformProperly(Amitabh Bachchan)</span>
+                <span class="method-start">362 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_007</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyGoogleProducts(null)</span>
+                <span class="method-start">380 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_008</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GmailLogin(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">391 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_009</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyInboxMailsCount(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">407 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_010</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyInboxMailsWithStarCount(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">434 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_011</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyInboxUnreadMailsCount(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">447 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_012</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyInboxReadMailsCount(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">459 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_013</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifymailComposeIsWorkingProperly(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">470 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_014</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyMailIsSendProperly(meenifsss@gmail.com, Meenu@676, meenakshi.patil04@gmail.com, Test Mail, This is test mail      Regar...)</span>
+                <span class="method-start">515 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_015</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyMailsareserchproperly(meenifsss@gmail.com, Meenu@676, linkedin notifications)</span>
+                <span class="method-start">528 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_016</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyInboxMailsWithAttachmentCount(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">540 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_017</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyEmailSettingIspresent(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">551 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_018</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyLabelIsCreated(meenifsss@gmail.com, Meenu@676, Testing_01)</span>
+                <span class="method-start">564 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_019</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyMailsMoveSourceFolderTotargetfolder(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">580 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dd_testcases.TC_020</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyMailsMoveSourceFolderTotargetfolder(meenifsss@gmail.com, Meenu@676)</span>
+                <span class="method-start">597 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
